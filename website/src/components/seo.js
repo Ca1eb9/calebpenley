@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Helmet } from "react-helmet"
 
 const seoData = {
   "title": "Caleb Penley",
@@ -10,6 +11,9 @@ const seoData = {
 const Seo = () => (
   <>
     <title>{seoData.title}</title>
+     <Helmet>
+    <link rel="icon" href="/favicon/favicon.ico" type="image/x-icon" />
+     </Helmet>
     <meta name="description" content={seoData.description} />
     <meta property="og:title" content={seoData.title} />
     <meta property="og:description" content={seoData.description} />

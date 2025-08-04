@@ -52,7 +52,6 @@ const FeaturedProjects = () => (
             <span className="project__used__item">Tkinter</span>
             <span className="project__used__item">REST API</span>
             <span className="project__used__item">CI/CD</span>
-            <span className="project__used__item"></span>
          </div>
         </figcaption>
       </div>
