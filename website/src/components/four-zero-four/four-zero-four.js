@@ -5,8 +5,8 @@ const FourZeroFour = () => (
   <>
     <body className="not-found">
       <div className="name">Caleb Penley</div>
-      <h1>Hmmm...</h1>
-      <h2>Looks like there's nothing here.<br/>Return <a href="/">home</a>?</h2>
+      <h3>Looks like there's nothing here.</h3>
+      <h4>Return <a href="/">home</a>?</h4>
     </body>
   </>
 )
