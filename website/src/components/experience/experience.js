@@ -2,50 +2,22 @@ import * as React from "react"
 import "./experience.scss"
 
 
-const experienceData = [
-  {
-    "company": "Talking Yak",
-    "url": "https://talkingyak.com/",
-    "time": "September 2019 - Present",
-    "position": "Consulting Head of Engineering"
-  },
-  {
-    "company": "Ather Energy",
-    "url": "https://www.atherenergy.com/",
-    "time": "Feb 2019 - September 2019",
-    "position": "Engineering Manager"
-  },
-  {
-    "company": "Invaria - Willow",
-    "url": "https://onewillow.com/",
-    "time": "March 2018 - Feb 2019",
-    "position": "Senior Software Engineer"
-  },
-  {
-    "company": "Invaria - Proxfinity",
-    "url": "https://www.proxfinity.com/",
-    "time": "Jan 2016 - March 2018",
-    "position": "Software Engineer"
-  },
-  {
-    "company": "TAAL Tech",
-    "url": "https://www.taaltech.com/",
-    "time": "June 2015 - Jan 2016",
-    "position": "Software Engineer"
-  },
-  {
-    "company": "Virtual Applets",
-    "url": "https://www.crunchbase.com/organization/virtual-applets",
-    "time": "Jan 2013 - June 2015",
-    "position": "Co-Founder"
-  },
-  {
-    "company": "Tringapps - HBO GO",
-    "url": "https://play.google.com/store/apps/details?id=sg.hbo.hbogo&hl=en&gl=US",
-    "time": "Dec 2011 - Jan 2013",
-    "position": "Research Analyst"
-  },
-]
+const experienceData = [{
+  "company": "Assistant Manager / Technical Lead",
+  "url": "https://silverstarcinemas.com/",
+  "time": "May 2024 - Present",
+  "position": "Silver Star Cinemas"
+}, {
+  "company": "Independent Researcher",
+  "url": "",
+  "time": "Ongoing",
+  "position": "Personal Project"
+}, {
+  "company": "Vice President",
+  "url": "",
+  "time": "Dec 2024 - Sep 2025",
+  "position": "Delta Phi, Psi Chapter"
+}];
 
 const Experience = () => (
   <section className="section experience">
@@ -66,8 +38,7 @@ const Experience = () => (
           ))
         }
       </div>
-
-      <a href="./kavin_varnan_resume.pdf" target="_blank" rel="noreferrer" className="arrow-link">View My Resume</a>
+      <a href="./PENLEY_CALEB_RESUME.pdf" target="_blank" rel="noreferrer" className="arrow-link">View My Resume</a>
     </div>
   </section>
 )

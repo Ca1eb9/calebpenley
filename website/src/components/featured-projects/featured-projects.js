@@ -7,37 +7,52 @@ const FeaturedProjects = () => (
     <div className="section__content">
       <div className="project blistabloc">
         <figure className="project__pic">
-          <a href="https://passkeynotes.com/" rel="noreferrer" target="_blank">
-            <img src="./images/featured/passkeynotes/frame.png" alt=""/>
+          <a href="" rel="noreferrer" target="_blank">
+            <img src="./images/featured/dashboard/frame.png" alt=""/>
           </a>
         </figure>
         <figcaption className="project__caption">
           <div className="project__name">
-            <a href="https://passkeynotes.com/" rel="noreferrer" target="_blank">Passkey Notes</a>
+            <a href="" rel="noreferrer" target="_blank">Projector Dashboard</a>
           </div>
-          <p>A Secure Notes taking app, which syncs data across all your devices and stores all the data with AES-256 encryption</p>
+          <p>A full-stack projector management dashboard browser-app with UUID-secured authentication and automated email alerts for critical errors.</p>
+          <div className="project__used">
+            <span className="project__used__item">Rust</span>
+            <span className="project__used__item">Warp</span>
+            <span className="project__used__item">Tokio</span>
+            <span className="project__used__item">HTML5</span>
+            <span className="project__used__item">JavaScript</span>
+            <span className="project__used__item">Networking</span>
+            <span className="project__used__item">Security</span>
+         </div>
         </figcaption>
+        
       </div>
+  
 
       <div className="project screentime">
         <figure className="project__pic phones">
-          <a href="https://play.google.com/store/apps/details?id=com.talkingyak.app" rel="noreferrer" target="_blank">
-            <div className="phone">
-              <img src="./images/featured/talkingyak/talkingyak_ss1.png" alt=""/>
+          <a href="https://github.com/Ca1eb9/Maya" rel="noreferrer" target="_blank">
+            <div className="maya">
+              <img src="./images/featured/maya/phone_maya.png" alt=""/>
             </div>
-            <div className="phone">
-              <img src="./images/featured/talkingyak/talkingyak_ss2.png" alt=""/>
-            </div>
-            <div className="phone">
-              <img src="./images/featured/talkingyak/talkingyak_ss3.png" alt=""/>
-            </div>
+            
           </a>
         </figure>
         <figcaption className="project__caption">
           <div className="project__name">
-            <a href="https://play.google.com/store/apps/details?id=com.talkingyak.app" rel="noreferrer" target="_blank">Talking Yak</a>
+            <a href="https://github.com/Ca1eb9/Maya" rel="noreferrer" target="_blank">Maya - An AI Assistant</a>
           </div>
-          <p>Talking Yak is an English learning app specifically created for Hindi and Tamil speakers.</p>
+          <p>Maya is my first attempt to develop an original client-server based AI assistant similar to Amazon Alexa or Google Home.</p>
+          <div className="project__used">
+            <span className="project__used__item">Python</span>
+            <span className="project__used__item">Azure</span>
+            <span className="project__used__item">Docker</span>
+            <span className="project__used__item">Flask</span>
+            <span className="project__used__item">Tkinter</span>
+            <span className="project__used__item">REST API</span>
+            <span className="project__used__item">CI/CD</span>
+         </div>
         </figcaption>
       </div>
     </div>

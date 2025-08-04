@@ -2,15 +2,13 @@ import * as React from "react"
 import "./skills.scss"
 
 const skillsData = {
-  "languagesTitle": "Frontend",
-  "languages": ["Flutter", "Dart", "Android", "Kotlin"],
-  "frameworksTitle": "Backend",
-  "frameworks": ["Node.js", "Firebase", "Python", "Java - Spring"],
-  "toolsTitle": "Servers",
-  "tools": ["Scaling", "Serverless", "Microservice", "Monolith"],
-  "designTitle": "Cloud",
-  "design": ["Firebase", "Google Cloud", "AWS", "Digital Ocean"],
-}
+  "languagesTitle": "Languages",
+  "languages": ["Python", "C", "Rust", "Java"],
+  "frameworksTitle": "Applied CS",
+  "frameworks": ["Tech Ops", "Machine Learning", "Digital Systems", "Automation"],
+  "toolsTitle": "Leadership",
+  "tools": ["Teamwork", "Communication", "Coordination", "Mentoring"],
+};
 
 const Skills = () => (
   <section className="section skills">
@@ -33,12 +31,6 @@ const Skills = () => (
           <div className="skillz__category__label">{skillsData.toolsTitle}</div>
           <ul>
             {skillsData.tools.map((data) => <li className="skillz__category__item">{data}</li>)}
-          </ul>
-        </div>
-        <div className="skillz__category">
-          <div className="skillz__category__label">{skillsData.designTitle}</div>
-          <ul>
-            {skillsData.design.map((data) => <li className="skillz__category__item">{data}</li>)}
           </ul>
         </div>
       </div>

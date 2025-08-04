@@ -3,33 +3,22 @@ import * as React from "react"
 
 const backgroundData = {
   title: "Background",
-  part1: "Currently, I serve as the Consulting Head of Engineering at ",
-  part2: "Talking Yak",
-  part2Href: "https://talkingyak.com/",
-  part3: " where I lead a team in developing innovative tech solutions.",
-  line2: "As a hands-on full-stack software engineer, I adeptly bridge the gap between backend and frontend teams, crafting robust architectures in the process. I consistently stay abreast of the latest developments in my field, diligently seeking opportunities to learn and explore emerging technologies.",
-  line3Part1: "When I'm not in front of a computer screen",
-  line3Part2: ", you'll likely find me engaging in a game of badminton, exploring new cuisines, or delving into spontaneous DIY projects—all of which I enjoy sharing on my ",
-  line3Part3: "YouTube channel",
-  line3Part3Href: "https://www.youtube.com/@kavindiy",
-  line3Part4: ".",
+  line1: "Currently attending The Pennsylvania State University pursuing a degree in computer science, I have a keen interest in the intersection between machine learning and neuroscience. I'm currently focused on experimenting with system and architectural design that more-closely mimic the efficient adaptability seen in biological neural networks.",
+  line2: "Growing up in a small rural town in northwestern PA, I was surprisingly drawn to the complexity of computation, eventually teaching myself everything from basic mechanic and electronics to programming through raw reverse-engineering.",
+  line3: "While expanding my knowledge and experimenting with digital systems design, I also enjoy learning about topics in practically any other field of study. When I’m not immersed in theory or coding a custom tool, I love reflecting on big questions, going on hikes, and socializing with friends and family."
 };
 const Background = () => (
   <section className="section background">
     <div className="section__title">{backgroundData.title}</div>
     <div className="section__content">
       <p>
-        {backgroundData.part1}
-        <a className="underline-link" href={backgroundData.part2Href} target="_blank" rel="noreferrer">{backgroundData.part2}</a>
-        {backgroundData.part3}
+       {backgroundData.line1}
       </p>
       <p>
         {backgroundData.line2}
       </p>
       <p>
-        <strong>{backgroundData.line3Part1}</strong>{backgroundData.line3Part2}
-        <a className="underline-link" href={backgroundData.line3Part3Href} target="_blank" rel="noreferrer">{backgroundData.line3Part3}</a>
-        {backgroundData.line3Part4}
+        {backgroundData.line3}
       </p>
     </div>
   </section>
