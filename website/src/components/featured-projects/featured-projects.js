@@ -43,7 +43,7 @@ const FeaturedProjects = () => (
           <div className="project__name">
             <a href="https://github.com/Ca1eb9/Maya" rel="noreferrer" target="_blank">Maya - An AI Assistant</a>
           </div>
-          <p>Maya is my first attempt to develop an original client-server based AI assistant similar to Amazon Alexa or Google Home.</p>
+          <p>Maya is my first attempt to develop an original client-server based AI assistant similar to Amazon Alexa or Google Home. It features Azure speech synthesis and custom intent recognition.</p>
           <div className="project__used">
             <span className="project__used__item">Python</span>
             <span className="project__used__item">Azure</span>
@@ -52,6 +52,7 @@ const FeaturedProjects = () => (
             <span className="project__used__item">Tkinter</span>
             <span className="project__used__item">REST API</span>
             <span className="project__used__item">CI/CD</span>
+            <span className="project__used__item"></span>
          </div>
         </figcaption>
       </div>

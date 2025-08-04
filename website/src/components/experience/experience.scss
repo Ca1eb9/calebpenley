@@ -8,7 +8,7 @@
     .time-place {
       display: flex;
       justify-content: space-between;
-      @include mobile {
+      @include phablet {
         display: block;
       }
     }
@@ -18,7 +18,7 @@
     &__time {
       font-size: 0.9rem;
       font-family: 'Inconsolata', monospace;
-      @include mobile {
+      @include phablet {
         font-size: 0.8rem;
       }
     }
@@ -28,6 +28,9 @@
     &:after {
       width: 20px;
       height: 20px;
+    }
+    @include tablet {
+      font-size: 1.1rem;;
     }
   }
 }

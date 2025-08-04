@@ -1,24 +1,28 @@
 @import "src/scss/globals";
 .featured-projects {
+  
   a:after {
     display: none;
   }
   .project {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
     margin-left: -5%;
-    justify-content: right;
+    padding-right:10vh;
+    justify-content: center;
     width: 125%;
     @include thirteen {
       width: 115%;
+      padding-right:10vh;
     }
     @include desktop {
       width: 105%;
+      padding-right:0vh;
     }
     @include tablet {
       width: 100%;
       display: block;
-      margin-bottom: 70px;
+      margin-bottom: 60px;
     }
     &.screentime {
       margin-bottom: 70px;
@@ -28,9 +32,11 @@
     }
     &__pic {
       width: 100%;
+      min-width: 355px;
+      max-width: 600px;
       overflow: visible;
-      
       margin: 0;
+      
       a {
         display: block;
       }
@@ -51,19 +57,28 @@
           justify-content: center;
         }
         .maya img {
-          width:65%;
+          width:50%;
+          margin-top: -10%;
+          @include tablet {
+            max-width: 200px;
+            margin-top: 0;
+          }
         }
+
       }
       
     }
     &__caption {
-      width: 225px;
-      flex-shrink: 0;
+      width: 70%;
+      flex-shrink: 1;
       margin-left: 30px;
       @include tablet {
         width: 100%;
         margin-top: 25px;
         margin-left: 0;
+      }
+      @include thirteen {
+        width: 90%;
       }
     }
     &__name {
