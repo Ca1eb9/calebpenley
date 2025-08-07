@@ -3,9 +3,9 @@ import Parser from 'html-react-parser';
 import "./other-projects.scss"
 
 const otherProjectsData = [{
-  "name": "Llama Style Transfer",
-  "url": "",
-  "description": "A personal research project exploring fine-tuning of a 1B-parameter Llama model to perform writing style transfer across both several text domains and varied learning mechanisms.",
+  "name": "Fine-tuning LLaMA for Style Transfer",
+  "url": "https://github.com/Ca1eb9/portfolio/tree/main/coming-soon",
+  "description": "A personal research project exploring fine-tuning of a 1B-parameter Llama model to perform textual style transfer using a limited dataset. Examined the effect supervised fine-tuning (SFT) and input/output variations have on model quality.",
   "used": [{
     "thing": "Python"
   }, {
@@ -20,18 +20,18 @@ const otherProjectsData = [{
 }, {
   "name": "Penley's Paintball Website",
   "url": "https://penleyspaintball.github.io",
-  "description": "A clean, intuitive site designed to showcase pricing, events, and gallery for my dad’s local paintball business. <br> <a class='small' href=''>Source Code</a>",
+  "description": "A simple yet clean and intuitive website designed to showcase pricing, events, and gallery for my dad’s local paintball business.<br> <a class='small' target='_blank' rel='noreferrer' href='https://github.com/penleyspaintball/penleyspaintball.github.io'>Source Code</a>",
   "used": [{
-    "thing": "HTML5"
+    "thing": "HTML"
   }, {
     "thing": "JavaScript"
   }, {
     "thing": "MetaAPI"
   }]
 }, {
-  "name": "mdadm JBOD System",
-  "url": "",
-  "description": "Built a fail-safe storage management tool in C that simulates Linux’s mdadm, culminating in the implementation of a client-server protocol to execute JBOD operations over a networked environment.",
+  "name": "Custom mdadm RAID Utility",
+  "url": "https://github.com/Ca1eb9/portfolio/tree/main/coming-soon",
+  "description": "A mdadm-like tool in C for RAID managment, focusing on fail-safe Just a Bunch of Disks (JBOD) operations through rigorous testing. Implemented a caching system to optimize I/O and socket-based communication for scalability and improved performance in a networked environment.",
   "used": [{
     "thing": "C"
   }, {
@@ -45,8 +45,8 @@ const otherProjectsData = [{
   }]
 }, {
   "name": "Course Scheduler",
-  "url": "",
-  "description": "Designed a Java-based academic scheduling system using SQL, supporting dynamic student course enrollment and admin-level schedule control.",
+  "url": "https://github.com/Ca1eb9/portfolio/tree/main/coming-soon",
+  "description": "A Java-based academic scheduling system using SQL, supporting dynamic student course enrollment and admin-level schedule control.",
   "used": [{
     "thing": "Java"
   }, {
@@ -57,24 +57,24 @@ const otherProjectsData = [{
     "thing": "JDBC"
   }]
 }, {
-  "name": "Showtime Display",
+  "name": "Cinema Showtimes Display",
   "url": "https://silverstarcinemas.com",
-  "description": "Developed a clean, intuitive web app for daily and weekly movie listings, backed by Firebase and Google Cloud functions for reliable schedule syncing. <br> <a class='small' href='https://github.com/Ca1eb9/CalebPenley-Portfolio/tree/main/Web%20Dev%20for%20Movie%20Theater'>Source Code </a>",
+  "description": "A dynamic movie listings web app using TMDB API for movie data, backed by Firebase and Google Cloud Platform (GCP) functions for reliable showtime access. <br> <a class='small' href='https://github.com/Ca1eb9/CalebPenley-Portfolio/tree/main/Web%20Dev%20for%20Movie%20Theater'>Source Code </a>",
   "used": [{
-    "thing": "HTML5"
+    "thing": "HTML"
   }, {
     "thing": "JavaScript"
   }, {
     "thing": "Firebase"
   }, {
-    "thing": "Google Cloud"
+    "thing": "GCP"
   }, {
     "thing": "TMDB API"
   }]
 }, {
   "name": "TinyLlama Reasoning",
-  "url": "",
-  "description": "Explored the capacity of a lightweight LLM (TinyLlama) to perform structured textual reasoning through simple deductive prediction.",
+  "url": "https://github.com/Ca1eb9/portfolio/tree/main/coming-soon",
+  "description": "A personal project exploring the capacity of a lightweight LLM like TinyLlama to perform structured textual reasoning through deductive prediction.",
   "used": [{
     "thing": "Python"
   }, {
@@ -89,21 +89,19 @@ const otherProjectsData = [{
     "thing": "PEFT/LoRA"
   }]
 }, {
-  "name": "VAE from Scratch",
-  "url": "",
-  "description": "Designed and implemented a modular Variational Autoencoder in PyTorch from scratch to explore generative modeling and latent space structure.",
+  "name": "Variational Autoencoder (VAE) from Scratch",
+  "url": "https://github.com/Ca1eb9/portfolio/tree/main/coming-soon",
+  "description": "A deep convolutional VAE in PyTorch from scratch to efficently learn compressed representations from images. Trained on the MNIST dataset achieving a low reconstruction loss (<0.01 MSE) for generative sampling.",
   "used": [{
     "thing": "Python"
   }, {
     "thing": "Pytorch"
   }, {
     "thing": "HuggingFace"
-  }, {
-    "thing": "NumPy"
   }]
 }, {
   "name": "Diffusion LoRA Training",
-  "url": "",
+  "url": "https://github.com/Ca1eb9/portfolio/tree/main/coming-soon",
   "description": "Implemented and trained Low-Rank Adaptation modules on a Flux.1 Dev to experiment with efficient model fine-tuning and performance improvements on domain-specific input.",
   "used": [{
     "thing": "Python"
@@ -112,9 +110,9 @@ const otherProjectsData = [{
   }, {
     "thing": "Diffusers"
   }, {
-    "thing": "Flux.1 Dev"
-  }, {
     "thing": "LoRA"
+  }, {
+   "thing": "Flux.1 Dev"
   }]
 }];
 

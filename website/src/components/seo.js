@@ -13,6 +13,11 @@ const Seo = () => (
     <title>{seoData.title}</title>
      <Helmet>
     <link rel="icon" href="/favicon/favicon.ico" type="image/x-icon" />
+    {/* Bootstrap Icons CDN */}
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
      </Helmet>
     <meta name="description" content={seoData.description} />
     <meta property="og:title" content={seoData.title} />

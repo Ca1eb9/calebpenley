@@ -8,11 +8,6 @@ const experienceData = [{
   "time": "May 2024 - Present",
   "position": "Silver Star Cinemas"
 }, {
-  "company": "Independent Researcher",
-  "url": "",
-  "time": "Ongoing",
-  "position": "Personal Project"
-}, {
   "company": "Vice President",
   "url": "",
   "time": "Dec 2024 - Sep 2025",

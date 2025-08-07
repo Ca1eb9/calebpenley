@@ -5,11 +5,12 @@ const socialData = [{
   "title": "email",
   "url": "mailto:penleyc@icloud.com"
 }, {
-  "title": "github",
-  "url": "https://github.com/ca1eb9"
-}, {
   "title": "linkedin",
   "url": "https://www.linkedin.com/in/calebpenley/"
+}, {
+  "title": "github",
+  "url": "https://github.com/ca1eb9"
+
 }];
 const Footer = () => (
   <footer className="footer">
@@ -17,7 +18,7 @@ const Footer = () => (
       <div className="footer1__links">
         {
           socialData.map((social) => (
-            <a href={social.url} target="_blank" rel="noreferrer" title="{{link.title}}">
+            <a href={social.url} target="_blank" rel="noreferrer" title={social.title}>
               <span className="text">{social.title}</span>
             </a>
           ))

@@ -13,16 +13,16 @@ const FeaturedProjects = () => (
         </figure>
         <figcaption className="project__caption">
           <div className="project__name">
-            <a href="" rel="noreferrer" target="_blank">Theater Dashboard</a>
+            <a href="" rel="noreferrer" target="_blank">Cinema Dashboard</a>
           </div>
-          <p>A full-stack projector management dashboard web-app with UUID-secured authentication and automated email alerts for critical errors.</p>
+          <p>A full-stack asynchronous dashboard with a TCP-backend for live projector status and management. Secured by UUID-based authentication and automated email alerts for critical errors or projector failures.</p>
           <div className="project__used">
             <span className="project__used__item">Rust</span>
             <span className="project__used__item">Warp</span>
             <span className="project__used__item">Tokio</span>
-            <span className="project__used__item">HTML5</span>
+            <span className="project__used__item">HTML</span>
             <span className="project__used__item">JavaScript</span>
-            <span className="project__used__item">Networking</span>
+            <span className="project__used__item">TCP</span>
             <span className="project__used__item">Security</span>
          </div>
         </figcaption>
@@ -43,7 +43,7 @@ const FeaturedProjects = () => (
           <div className="project__name">
             <a href="https://github.com/Ca1eb9/Maya" rel="noreferrer" target="_blank">Maya - An AI Assistant</a>
           </div>
-          <p>Maya is my first attempt to develop an original client-server based AI assistant similar to Amazon Alexa or Google Home. It features Azure speech synthesis and custom intent recognition.</p>
+          <p>Orignal AI assistant with a Flask REST API for CI/CD, media playback, and real-time weather updates. Scaled to support a server-client design using multi-threaded sockets, leveraging Microsoft Azure for speech recognition and synthesis</p>
           <div className="project__used">
             <span className="project__used__item">Python</span>
             <span className="project__used__item">Azure</span>
@@ -52,6 +52,7 @@ const FeaturedProjects = () => (
             <span className="project__used__item">Tkinter</span>
             <span className="project__used__item">REST API</span>
             <span className="project__used__item">CI/CD</span>
+            <span className="project__used__item">TCP</span>
          </div>
         </figcaption>
       </div>

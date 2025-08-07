@@ -138,8 +138,21 @@
       bottom:1px;
       transition: transform 0.3s ease-out, opacity 0.3s ease-out;
       width: 600px;
-      z-index: 0; /* Lower layer */
-      opacity: 0.2; /* Optional: make it semi-transparent */
+      z-index: 0;
+      opacity: 0.2;
+      pointer-events: none;
+    }
+    &__icon {
+      font-size: 2rem;
+      
     }
   }
+
+.icon-box {
+  padding-right: 20px;
+}
+.icon-boxs {
+  display: flex;
+}
+
   

@@ -43,6 +43,20 @@ const Intro = () => {
       <a href={introData.mailTo}
          className="highlight-link">{introData.email}</a>
     </span>
+    <br/>
+    <div className="icon-boxs">
+      <div className="icon-box">
+      <a href="https://linkedin.com/in/calebpenley" target="_blank" rel="noreferrer" className="intro__icon">
+      <i class="bi bi-linkedin"></i>
+    </a>
+    </div>
+    <div className="icon-box">
+      <a href="https://github.com/ca1eb9" target="_blank" rel="noreferrer" className="intro__icon">
+      <i class="bi bi-github"></i>
+    </a>
+    </div>
+    </div>
+    
     </h3>
     <img src="./images/ai.png" className="intro__img"></img>
   </header>
