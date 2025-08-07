@@ -140,6 +140,14 @@ const FeaturedProjects = () => (
         ))
       }
     </div>
+    <div className="img_wrapper">
+      <img src="./images/binary.png" className="img0"></img>
+    </div>
+    <div className="img_wrapper">
+      <img src="./images/cpu.png" className="img1"></img>
+    </div>
+    
+    
   </section>
 )
 

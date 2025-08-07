@@ -5,8 +5,10 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@vercel/analytics": "^1.5.0",
     "gatsby": "^5.13.1",
     "gatsby-plugin-sass": "^6.13.0",
+    "gatsby-plugin-vercel": "^1.0.4",
     "html-react-parser": "^5.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

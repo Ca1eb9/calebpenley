@@ -35,7 +35,11 @@ const Skills = () => (
         </div>
       </div>
     </div>
+    <div className="img_wrapper">
+      <img src="./images/binary.png" className="img"></img>
+    </div>
   </section>
+  
 )
 
 export default Skills

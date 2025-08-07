@@ -13,9 +13,9 @@ const FeaturedProjects = () => (
         </figure>
         <figcaption className="project__caption">
           <div className="project__name">
-            <a href="" rel="noreferrer" target="_blank">Projector Dashboard</a>
+            <a href="" rel="noreferrer" target="_blank">Theater Dashboard</a>
           </div>
-          <p>A full-stack projector management dashboard browser-app with UUID-secured authentication and automated email alerts for critical errors.</p>
+          <p>A full-stack projector management dashboard web-app with UUID-secured authentication and automated email alerts for critical errors.</p>
           <div className="project__used">
             <span className="project__used__item">Rust</span>
             <span className="project__used__item">Warp</span>

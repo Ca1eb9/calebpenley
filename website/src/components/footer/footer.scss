@@ -16,11 +16,10 @@
   
 }
 .footer1 {
-  padding: 10px 0px;
+  padding: 5px;
   width:100%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: right;
   @include desktop {
     padding: 10px 0px;
   }
@@ -32,42 +31,12 @@
   @include mobile {
     padding: 10px 30px;
   }
-  &__copyright {
-    font-weight: 300;
-    margin-left:6vh;
-    width: 200px;
-    @include weird-medium {
-      width: auto;
-      text-align: center;
-      
-      margin-left:0;
-      order:2;
-    }
-    .top, .bottom {
-      @include weird-medium {
-        display: inline-block;
-      }
-      @include mobile {
-        display: block;
-      }
-    }
-    .emoji {
-      width: 20px;
-      height: 20px;
-      margin: 0 3px;
-      vertical-align: text-bottom;
-    }
-    a {
-      font-weight: 300;
-    }
-  }
   &__links {
-    margin-right:6vh;
+    margin-right:18vh;
     @include weird-medium {
       display: flex;
       margin-bottom: 15px;
       justify-content: center;
-      order: 1;
       margin-right: 0;
     }
     a {

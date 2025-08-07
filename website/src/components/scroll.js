@@ -41,11 +41,12 @@ const Scroll = () => {
   const handleClick = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
+  
 
   return (
     <>
       <button id="top-button" ref={topButtonRef} onClick={handleClick} style={{ display: showTopButton ? 'block' : 'none' }}>
-        <img src="./images/arrow_up.png" alt=""/>
+        <img src="./images/up_arrow.png" alt=""/>
       </button>
     </>
   );

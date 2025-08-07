@@ -1,6 +1,7 @@
 @import "src/scss/globals";
 .other-projects {
   .project {
+    overflow-x: hidden;
     max-width: 600px;
     margin-bottom: 50px;
     &__name {
@@ -29,4 +30,20 @@
       }
     }
   }
+}
+.img0 {
+  position: absolute;
+  left: 10px;
+  bottom: -450px;
+  width: 500px;
+  z-index: 0;
+  opacity: 0.13;
+}
+.img1 {
+  position: absolute;
+  right:-250px;
+  bottom: -1200px;
+  width: 500px;
+  z-index: 0;
+  opacity: 0.2;
 }

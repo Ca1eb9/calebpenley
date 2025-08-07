@@ -3,11 +3,11 @@ import "./intro.scss"
 
 
 const introData = {
-  title: "Hello! ",
+  title: "Hello!",
   beforeName: "I'm ",
   name: "Caleb Penley",
-  afterName: ", a computer science student with a deep interest in researching and designing AI systems inspired by human cognition.",
-  contact: "Get in touch ",
+  afterName: "a computer science student with a deep interest in researching and designing AI systems inspired by human cognition.",
+  contact: "Get in touch: ",
   email: "penleyc@icloud.com",
   mailTo: "mailto:penleyc@icloud.com"
 };
@@ -30,12 +30,10 @@ const Intro = () => {
   }, []);
 
   return <header className="intro">
-    <h1 className="intro__hello">{introData.title}
-      <span className={isHovering ? "emoji wave-hand animated wave" : "emoji wave-hand animated"} onMouseOver={onMouseOver} onMouseOut={onMouseOut} onFocus={onMouseOver} onBlur={onMouseOut} role="button" tabIndex={0} aria-label="wave hand"></span>
-    </h1>
+    <h1 className="intro__hello">{introData.title}</h1>
 
     <h2 className="intro__tagline">{introData.beforeName}
-      <span className="name">{introData.name}</span>{introData.afterName}
+      <span className="name">{introData.name}</span>,<br></br>{introData.afterName}
     </h2>
 
     <h3 className="intro__contact">
@@ -46,6 +44,7 @@ const Intro = () => {
          className="highlight-link">{introData.email}</a>
     </span>
     </h3>
+    <img src="./images/ai.png" className="intro__img"></img>
   </header>
 };
 

@@ -14,13 +14,6 @@ const socialData = [{
 const Footer = () => (
   <footer className="footer">
     <div className="footer1">
-      <div className="footer1__copyright">
-        <div className="bottom credits">
-          <small>
-            Template by <a href="https://github.com/skavinvarnan/kavin.varnan.me" rel="noreferrer" target="_blank"> Kavin Varnin</a>
-          </small>
-        </div>
-      </div>
       <div className="footer1__links">
         {
           socialData.map((social) => (
