@@ -97,6 +97,9 @@
       .name {
         font-weight: 700;
         font-size: 4rem;
+        @include phablet {
+          font-size: 2rem;
+        }
       }
     }
     &__contact {
@@ -135,12 +138,13 @@
     &__img {
       position: sticky;
       margin-left: 60%;
-      bottom:1px;
+      bottom:100px;
       transition: transform 0.3s ease-out, opacity 0.3s ease-out;
       width: 600px;
       z-index: 0;
       opacity: 0.2;
       pointer-events: none;
+      
     }
     &__icon {
       font-size: 2rem;

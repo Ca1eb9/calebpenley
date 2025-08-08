@@ -89,9 +89,9 @@ const otherProjectsData = [{
     "thing": "PEFT/LoRA"
   }]
 }, {
-  "name": "Variational Autoencoder (VAE) from Scratch",
+  "name": "Variational Autoencoder (VAE)",
   "url": "https://github.com/Ca1eb9/portfolio/tree/main/coming-soon",
-  "description": "A deep convolutional VAE in PyTorch from scratch to efficently learn compressed representations from images. Trained on the MNIST dataset achieving a low reconstruction loss (<0.01 MSE) for generative sampling.",
+  "description": "A convolutional VAE in PyTorch from scratch to efficently learn compressed representations from images. Trained on the CIFAR-10 dataset, optimizing for low reconstruction loss while achieving diverse generative sampling.",
   "used": [{
     "thing": "Python"
   }, {

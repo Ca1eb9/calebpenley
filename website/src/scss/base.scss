@@ -1,6 +1,8 @@
 @import "globals";
 html {
   overflow-x: hidden;
+  height: auto;
+  //overscroll-behavior: none;
   box-sizing: border-box;
 }
 
