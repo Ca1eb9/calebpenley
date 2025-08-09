@@ -32,29 +32,18 @@
   }
 }
 .img0 {
-  position: relative;
-  transform: translateX(1%);
-  bottom: -100px;
+  position: absolute;
+  left: 10px;
+  bottom: -450px;
   width: 500px;
   z-index: 0;
   opacity: 0.13;
-  @include tablet {
-    //display: none;
-    bottom: 1400px;
-    width: 300px;
-  }
 }
 .img1 {
-  position: relative;
-  transform: translateX(250%);
-  bottom: -800px;
+  position: absolute;
+  right:-250px;
+  bottom: -1200px;
   width: 500px;
   z-index: 0;
-  opacity: 0.1;
-  @include tablet {
-    //display: none;
-    transform: translateX(150%);
-    bottom: 400px;
-    width: 200px;
-  }
+  opacity: 0.2;
 }
