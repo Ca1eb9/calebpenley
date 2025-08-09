@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: space-around;
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 0;
     @include weird-medium {
       padding: 120px 70px;
     }
