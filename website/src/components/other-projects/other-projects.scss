@@ -1,7 +1,6 @@
 @import "src/scss/globals";
 .other-projects {
   .project {
-    overflow-x: hidden;
     max-width: 600px;
     margin-bottom: 50px;
     &__name {
@@ -31,19 +30,63 @@
     }
   }
 }
-.img0 {
-  position: absolute;
-  left: 10px;
-  bottom: -450px;
-  width: 500px;
-  z-index: 0;
-  opacity: 0.13;
+
+
+.img_wrapper0 {
+  position:absolute;
+  width: 100%;
+  margin:0;
+  margin-top: 75px;
+  text-align: left;
+  padding: 0;
+  left: 0;
+  @include tablet {
+    margin-top: -1400px;
+  }
+  @include mobile {
+    margin-top: -1600px;
+  }
 }
-.img1 {
-  position: absolute;
-  right:-250px;
-  bottom: -1200px;
-  width: 500px;
+.img_wrapper1 {
+  position:absolute;
+  width: 100%;
+  margin:0;
+  margin-top: 800px;
+  text-align: right;
+  padding: 0;
+  left: 0;
+  right:-30px;
+  @include tablet {
+    margin-top: -800px;
+  }
+}
+
+
+.img0 {
+  width: 400px;
+  margin: 0;
+  padding: 0;
+  left: 0;
   z-index: 0;
   opacity: 0.2;
+  pointer-events: none;
+  @include mobile {
+    width: 250px;
+    opacity: 0.1;
+  }
+}
+
+.img1 {
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right:0;
+  width: 250px;
+  z-index: 0;
+  opacity: 0.2;
+  pointer-events: none;
+  @include mobile {
+    width: 150px;
+    opacity: 0.1;
+  }
 }

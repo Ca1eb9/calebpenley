@@ -57,6 +57,9 @@ const FeaturedProjects = () => (
         </figcaption>
       </div>
     </div>
+    <div className="img_wrap_f">
+      <img src="./images/binary_half.png" className="img"></img>
+    </div>
   </section>
 )
 

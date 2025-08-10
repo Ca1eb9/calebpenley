@@ -36,7 +36,7 @@ const Skills = () => (
       </div>
     </div>
     <div className="img_wrapper">
-      <img src="./images/binary2.png" className="img"></img>
+      <img src="./images/binary_half.png" className="img"></img>
     </div>
   </section>
   

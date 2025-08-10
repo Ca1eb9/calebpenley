@@ -26,19 +26,30 @@
   }
 }
 .img_wrapper {
-  width: 100%;
-  pointer-events: none;
-  z-index: 0;
   position: absolute;
+  width: 100%;
+  margin:0;
+  padding:0;
+  left:0;
+  z-index: 0;
+  pointer-events: none;
+  text-align: left;
+  @include tablet {
+    text-align: center;
+  }
+  @include mobile {
+    display:none;
+  }
 }
 .img {
-  position: absolute;
-  margin-left: 10px;
-  top: -150px;
-  width: 600px;
+  width: 30%;
   z-index: 0;
   opacity: 0.1;
+  pointer-events: none; 
   @include tablet {
-    width:400px;
+    width:50%;
+  }
+  @include mobile {
+    width:55%;
   }
 }

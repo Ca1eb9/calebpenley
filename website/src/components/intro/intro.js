@@ -58,7 +58,10 @@ const Intro = () => {
     </div>
     
     </h3>
-    <img src="./images/ai.png" className="intro__img"></img>
+    <div className="img_container">
+       <img src="./images/ai.png" className="img_intro"></img>
+    </div>
+   
   </header>
 };
 

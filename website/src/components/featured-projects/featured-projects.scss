@@ -1,6 +1,5 @@
 @import "src/scss/globals";
 .featured-projects {
-  
   a:after {
     display: none;
   }
@@ -12,12 +11,12 @@
     justify-content: center;
     width: 115%;
     @include thirteen {
-      width: 115%;
-      padding-right:10vh;
+      width: 105%;
+      padding-right:0;
     }
     @include desktop {
       width: 105%;
-      padding-right:0vh;
+      padding-right:0;
     }
     @include tablet {
       width: 100%;
@@ -36,6 +35,10 @@
       max-width: 600px;
       overflow: visible;
       margin: 0;
+
+      @include small-mobile {
+        min-width: 300px;
+      }
       
       a {
         display: block;
@@ -109,4 +112,25 @@
       }
     }
   }
+}
+
+.img_wrap_f {
+  position: absolute;
+  width: 100%;
+  margin:0;
+  padding:0;
+  left:0;
+  z-index: 0;
+  pointer-events: none;
+  text-align: left;
+  @include tablet {
+    display:none;
+  }
+}
+.img {
+  width: 30%;
+  z-index: 0;
+  opacity: 0.1;
+  pointer-events: none; 
+  
 }

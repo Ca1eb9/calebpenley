@@ -137,14 +137,13 @@ const FeaturedProjects = () => (
           </div>
         ))
       }
+  </div>
+  <div className="img_wrapper0">
+      <img src="./images/binary3.png" className="img0"></img>
     </div>
-    <div className="img_wrapper">
-      <img src="./images/binary.png" className="img0"></img>
+    <div className="img_wrapper1">
+      <img src="./images/cpu2.png" className="img1"></img>
     </div>
-    <div className="img_wrapper">
-      <img src="./images/cpu.png" className="img1"></img>
-    </div>
-    
     
   </section>
 )

@@ -26,13 +26,13 @@
         font-size: 2rem;
       }
       @include phablet {
-        font-size: 1.75rem;
-      }
-      @include small-mobile {
         font-size: 1.5rem;
       }
-      @include tiny-mobile {
+      @include small-mobile {
         font-size: 1.4rem;
+      }
+      @include tiny-mobile {
+        font-size: 1.3rem;
       }
       .emoji {
         width: 40px;
@@ -97,6 +97,7 @@
       .name {
         font-weight: 700;
         font-size: 4rem;
+        white-space: nowrap;
         @include phablet {
           font-size: 2rem;
         }
@@ -135,20 +136,8 @@
         }
       }
     }
-    &__img {
-      position: sticky;
-      margin-left: 60%;
-      bottom:100px;
-      transition: transform 0.3s ease-out, opacity 0.3s ease-out;
-      width: 600px;
-      z-index: 0;
-      opacity: 0.2;
-      pointer-events: none;
-      
-    }
     &__icon {
       font-size: 2rem;
-      
     }
   }
 
@@ -159,4 +148,35 @@
   display: flex;
 }
 
+.img_container {
+  position: absolute;
+  width:100%;
+  height:100%;
+  margin-top:30%;
+  text-align: right;
+  padding: 0;
+  left: 0;
+  pointer-events:none;
+  @include phablet {
+    margin-top: 40%;
+  }
+}
+
+.img_intro {
+  width: 30%;
+  position: sticky;
+  z-index: 0;
+  margin:0;
+  margin-right: 100px;
+  padding:0;
+  left:0;
+  right:0;
+  top:50px;
+  bottom:0;
+  opacity: 0.2;
+  pointer-events: none;
+  @include thirteen {
+    margin-right: 30px;
+  } 
+}
   
