@@ -1,5 +1,7 @@
 @import "src/scss/globals";
 .footer {
+  margin-top:-200px;
+  margin-right:18vh;
   display:flex;
   flex-direction: column;
   &__name {
@@ -11,15 +13,26 @@
     @include weird-medium {
       padding-bottom: 5px;
       font-size: .7rem;
+      
     }
   }
-  
+  @media (max-width:1190px) {
+    margin-top:-150px;
+  }
+  @media (max-width:1190px) {
+    margin-top:-100px;
+  }
+  @include weird-medium {
+    margin-top:-50px;
+    margin-right:0;
+  }
 }
 .footer1 {
   padding: 5px;
   width:100%;
   display: flex;
   justify-content: right;
+  text-align: center;
   @include desktop {
     padding: 10px 0px;
   }
@@ -31,8 +44,13 @@
   @include mobile {
     padding: 10px 30px;
   }
+  
+}
+.footer2 {
+  justify-content: space-around;
+
   &__links {
-    margin-right:18vh;
+    margin-top:15px;
     @include weird-medium {
       display: flex;
       margin-bottom: 15px;
@@ -81,12 +99,30 @@
         //}
       }
     }
-    img {
-      display: none;
-      width: 22px;
-      @include little-desktop {
-        display: inline-block;
-      }
-    }
+    
+  }
+}
+
+
+.portrait {
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right:0;
+  max-width: 200px;
+  z-index: 0;
+  opacity: 1;
+  pointer-events: none;
+  
+  @include desktop {
+    width: 150px;
+
+  }
+  @include tablet {
+
+  }
+  @include mobile {
+    width: 150px;
+    opacity: 1;
   }
 }

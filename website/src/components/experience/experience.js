@@ -3,19 +3,19 @@ import "./experience.scss"
 
 
 const experienceData = [{
-  "company": "Assistant Manager / Technical Lead",
+  "company": "Silver Star Cinemas",
   "url": "https://silverstarcinemas.com/",
   "time": "May 2024 - Present",
-  "position": "Silver Star Cinemas"
+  "position": "Assistant Manager / Tech Lead"
 }, {
-  "company": "Vice President",
-  "url": "",
-  "time": "Dec 2024 - Sep 2025",
-  "position": "Delta Phi, Psi Chapter"
+  "company": "Delta Phi, Psi Chapter",
+  "url": "https://www.deltaphi.org/",
+  "time": "Dec 2024 - Present",
+  "position": "Vice President"
 }];
 
 const Experience = () => (
-  <section className="section experience">
+  <section id="experience" className="section experience">
     <div className="section__title">Experience</div>
     <div className="section__content">
       <div className="jobs">
@@ -24,11 +24,14 @@ const Experience = () => (
             <div className="job">
               <div className="time-place">
                 <div className="job__company">
-                  <a href={data.url} target="_blank" rel="noreferrer">{data.company}</a>
+                  <div className="job__position">{data.position}</div>
                 </div>
                 <div className="job__time">{data.time}</div>
               </div>
-              <div className="job__position">{data.position}</div>
+              
+              <div className="job__company">
+                  <a href={data.url} target="_blank" rel="noreferrer">{data.company}</a>
+                </div>
             </div>
           ))
         }

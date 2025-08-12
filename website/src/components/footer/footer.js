@@ -15,7 +15,9 @@ const socialData = [{
 const Footer = () => (
   <footer className="footer">
     <div className="footer1">
-      <div className="footer1__links">
+      <div className="footer2">
+        <img src="./images/portrait.png" className="portrait"></img>
+      <div className="footer2__links">
         {
           socialData.map((social) => (
             <a href={social.url} target="_blank" rel="noreferrer" title={social.title}>
@@ -24,8 +26,8 @@ const Footer = () => (
           ))
         }
       </div>
+      </div>
     </div>
-    
 
     <div className="footer__name">
       Caleb Penley | 2025

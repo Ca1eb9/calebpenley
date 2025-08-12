@@ -1,6 +1,7 @@
 @import "globals";
 html {
   //overscroll-behavior: none;
+  scroll-behavior: smooth;
   box-sizing: border-box;
 }
 
@@ -52,6 +53,14 @@ body {
     .status {
       color: $off-white;
     }
+
+    .nav-bar a {
+      color: #5a6173;
+    }
+    .nav-box a:hover {
+      color: #a6acc4;
+    }
+
     .section__content .underline-link:after {
       background: $off-white;
     }
@@ -63,6 +72,33 @@ a {
   text-decoration: none;
   font-weight: 700;
   color: inherit;
+}
+
+.nav-bar a {
+  color: #5a6173;
+}
+
+.nav-box a:hover {
+  color: #a6acc4;
+}
+.experience {
+  .job {
+    &__position {
+      font-weight:700;
+      color:#e7e7e7;
+    }
+    &__company a {
+      font-weight: 400;
+      color:#afafbf;
+    }
+  }
+}
+
+.icon-box i {
+  transition: color 0.2s ease;
+}
+.icon-box i:hover {
+  color: #5a6173;
 }
 
 ul {
@@ -234,7 +270,7 @@ strong {
   @include desktop {
     bottom: 20px;
     right: 7px;
-    width: 35px;
+    width: 70px;
   }
   @include mobile {
     bottom: 15px;

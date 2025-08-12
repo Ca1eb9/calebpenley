@@ -5,3 +5,9 @@
  */
 
 // You can delete this file if you're not using it
+exports.onClientEntry = () => {
+  const savedMode = localStorage.getItem('darkMode');
+  if (savedMode === null || savedMode === 'true') {
+    document.body.classList.add('night');
+  }
+};

@@ -22,8 +22,8 @@ const Seo = () => (
     <meta name="description" content={seoData.description} />
     <meta property="og:title" content={seoData.title} />
     <meta property="og:description" content={seoData.description} />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:type" content="calebpenley.dev" />
+    <meta name="twitter:card" content="Caleb Penley is a computer science student with a deep interest in researching and designing AI systems inspired by human cognition." />
     <meta name="twitter:creator" content={seoData.author} />
     <meta name="twitter:title" content={seoData.title} />
     <meta name="twitter:description" content={seoData.description} />

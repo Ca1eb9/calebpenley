@@ -61,7 +61,6 @@ const Intro = () => {
     <div className="img_container">
        <img src="./images/ai.png" className="img_intro"></img>
     </div>
-   
   </header>
 };
 

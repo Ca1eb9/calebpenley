@@ -40,6 +40,7 @@
   text-align: left;
   padding: 0;
   left: 0;
+  pointer-events: none;
   @include tablet {
     margin-top: -1400px;
   }
@@ -56,6 +57,7 @@
   padding: 0;
   left: 0;
   right:-30px;
+  pointer-events: none;
   @include tablet {
     margin-top: -800px;
   }

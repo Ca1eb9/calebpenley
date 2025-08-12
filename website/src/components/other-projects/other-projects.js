@@ -3,9 +3,9 @@ import Parser from 'html-react-parser';
 import "./other-projects.scss"
 
 const otherProjectsData = [{
-  "name": "Fine-tuning LLaMA for Style Transfer",
+  "name": "LLaMA Style Transfer",
   "url": "https://github.com/Ca1eb9/portfolio/tree/main/coming-soon",
-  "description": "A personal research project exploring fine-tuning of a 1B-parameter Llama model to perform textual style transfer using a limited dataset. Examined the effect supervised fine-tuning (SFT) and input/output variations have on model quality.",
+  "description": "A personal research project exploring fine-tuning of a 1B-parameter Llama model to perform textual style transfer using a limited dataset. Examined the effects supervised fine-tuning (SFT) and input/output variations have on model quality and accuracy.",
   "used": [{
     "thing": "Python"
   }, {
@@ -16,17 +16,6 @@ const otherProjectsData = [{
     "thing": "HuggingFace"
   }, {
     "thing": "WandB"
-  }]
-}, {
-  "name": "Penley's Paintball Website",
-  "url": "https://penleyspaintball.github.io",
-  "description": "A simple yet clean and intuitive website designed to showcase pricing, events, and gallery for my dad’s local paintball business.<br> <a class='small' target='_blank' rel='noreferrer' href='https://github.com/penleyspaintball/penleyspaintball.github.io'>Source Code</a>",
-  "used": [{
-    "thing": "HTML"
-  }, {
-    "thing": "JavaScript"
-  }, {
-    "thing": "MetaAPI"
   }]
 }, {
   "name": "Custom mdadm RAID Utility",
@@ -44,32 +33,15 @@ const otherProjectsData = [{
     "thing": "Git"
   }]
 }, {
-  "name": "Course Scheduler",
+  "name": "Variational Autoencoder (VAE)",
   "url": "https://github.com/Ca1eb9/portfolio/tree/main/coming-soon",
-  "description": "A Java-based academic scheduling system using SQL, supporting dynamic student course enrollment and admin-level schedule control.",
+  "description": "A convolutional VAE in PyTorch from scratch to efficently learn compressed representations from images. Trained on the CIFAR-10 dataset, optimizing for low reconstruction loss while achieving diverse generative sampling.",
   "used": [{
-    "thing": "Java"
+    "thing": "Python"
   }, {
-    "thing": "SQL"
+    "thing": "Pytorch"
   }, {
-    "thing": "JavaFX"
-  }, {
-    "thing": "JDBC"
-  }]
-}, {
-  "name": "Cinema Showtimes Display",
-  "url": "https://silverstarcinemas.com",
-  "description": "A dynamic movie listings web app using TMDB API for movie data, backed by Firebase and Google Cloud Platform (GCP) functions for reliable showtime access. <br> <a class='small' href='https://github.com/Ca1eb9/CalebPenley-Portfolio/tree/main/Web%20Dev%20for%20Movie%20Theater'>Source Code </a>",
-  "used": [{
-    "thing": "HTML"
-  }, {
-    "thing": "JavaScript"
-  }, {
-    "thing": "Firebase"
-  }, {
-    "thing": "GCP"
-  }, {
-    "thing": "TMDB API"
+    "thing": "HuggingFace"
   }]
 }, {
   "name": "TinyLlama Reasoning",
@@ -89,15 +61,17 @@ const otherProjectsData = [{
     "thing": "PEFT/LoRA"
   }]
 }, {
-  "name": "Variational Autoencoder (VAE)",
+  "name": "Course Scheduler",
   "url": "https://github.com/Ca1eb9/portfolio/tree/main/coming-soon",
-  "description": "A convolutional VAE in PyTorch from scratch to efficently learn compressed representations from images. Trained on the CIFAR-10 dataset, optimizing for low reconstruction loss while achieving diverse generative sampling.",
+  "description": "A Java-based academic scheduling system using SQL, supporting dynamic student course enrollment and admin-level schedule control.",
   "used": [{
-    "thing": "Python"
+    "thing": "Java"
   }, {
-    "thing": "Pytorch"
+    "thing": "SQL"
   }, {
-    "thing": "HuggingFace"
+    "thing": "JavaFX"
+  }, {
+    "thing": "JDBC"
   }]
 }, {
   "name": "Diffusion LoRA Training",
@@ -113,6 +87,32 @@ const otherProjectsData = [{
     "thing": "LoRA"
   }, {
    "thing": "Flux.1 Dev"
+  }]
+}, {
+  "name": "Cinema Showtimes Display",
+  "url": "https://silverstarcinemas.com",
+  "description": "A dynamic movie listings web app using TMDB API for movie data, backed by Firebase and Google Cloud Platform (GCP) functions for reliable showtime access. <br> <a class='small' href='https://github.com/Ca1eb9/CalebPenley-Portfolio/tree/main/Web%20Dev%20for%20Movie%20Theater'>Source Code </a>",
+  "used": [{
+    "thing": "HTML"
+  }, {
+    "thing": "JavaScript"
+  }, {
+    "thing": "Firebase"
+  }, {
+    "thing": "GCP"
+  }, {
+    "thing": "TMDB API"
+  }]
+}, {
+  "name": "Penley's Paintball Website",
+  "url": "https://penleyspaintball.github.io",
+  "description": "A simple yet clean and intuitive website designed to showcase pricing, events, and gallery for my dad’s local paintball business.<br> <a class='small' target='_blank' rel='noreferrer' href='https://github.com/penleyspaintball/penleyspaintball.github.io'>Source Code</a>",
+  "used": [{
+    "thing": "HTML"
+  }, {
+    "thing": "JavaScript"
+  }, {
+    "thing": "MetaAPI"
   }]
 }];
 
@@ -138,7 +138,7 @@ const FeaturedProjects = () => (
         ))
       }
   </div>
-  <div className="img_wrapper0">
+    <div className="img_wrapper0">
       <img src="./images/binary3.png" className="img0"></img>
     </div>
     <div className="img_wrapper1">

@@ -12,8 +12,13 @@
         display: block;
       }
     }
+    &__position {
+      font-weight:700;
+      color:#e7e7e7;
+    }
     &__company {
-      font-weight: 700;
+      font-weight: 400;
+      color:#afafbf;
     }
     &__time {
       font-size: 0.9rem;

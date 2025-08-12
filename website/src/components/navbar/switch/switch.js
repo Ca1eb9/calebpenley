@@ -2,22 +2,24 @@ import * as React from "react"
 import "./switch.scss"
 
 const Switch = () => {
-  const isBrowser = typeof window !== "undefined";
-  let prefersDarkMode = false;
-  let savedMode = false;
-  if (isBrowser) {
-    prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    savedMode = localStorage.getItem('darkMode');
-  }
-  const [isChecked, setIsChecked] = React.useState(savedMode ? JSON.parse(savedMode) : prefersDarkMode);
+  
+  const [isChecked, setIsChecked] = React.useState(true);
+  
+  React.useEffect(() => {
+    const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const savedMode = localStorage.getItem('darkMode');
+    setIsChecked(savedMode !== null ? JSON.parse(savedMode) : prefersDarkMode);
+  }, []);
 
   const toggleSwitch = () => {
     const newChecked = !isChecked;
+    console.log("hello")
     setIsChecked(newChecked);
     localStorage.setItem('darkMode', JSON.stringify(newChecked));
   };
 
   React.useEffect(() => {
+    console.log("hello")
     if (isChecked) {
       document.body.classList.add('night');
     } else {

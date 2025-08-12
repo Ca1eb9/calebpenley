@@ -14,7 +14,7 @@
       padding: 120px 50px;
     }
     @include mobile {
-      padding: 70px 50px;
+      padding: 70px 20px;
     }
 
     &__hello, &__tagline {
@@ -158,7 +158,7 @@
   left: 0;
   pointer-events:none;
   @include phablet {
-    margin-top: 40%;
+    margin-top: 35%;
   }
 }
 

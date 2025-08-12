@@ -2,7 +2,7 @@ import * as React from "react"
 import "./featured-projects.scss"
 
 const FeaturedProjects = () => (
-  <section className="section featured-projects">
+  <section id="projects" className="section featured-projects">
     <div className="section__title">Featured Projects</div>
     <div className="section__content">
       <div className="project blistabloc">
@@ -34,7 +34,7 @@ const FeaturedProjects = () => (
         <figure className="project__pic phones">
           <a href="https://github.com/Ca1eb9/Maya" rel="noreferrer" target="_blank">
             <div className="maya">
-              <img src="./images/featured/maya/phone_maya.png" alt=""/>
+              <img src="./images/featured/maya/phone_maya2.png" alt=""/>
             </div>
             
           </a>
@@ -43,7 +43,7 @@ const FeaturedProjects = () => (
           <div className="project__name">
             <a href="https://github.com/Ca1eb9/Maya" rel="noreferrer" target="_blank">Maya - An AI Assistant</a>
           </div>
-          <p>Orignal AI assistant with a Flask REST API for CI/CD, media playback, and real-time weather updates. Scaled to support a server-client design using multi-threaded sockets, leveraging Microsoft Azure for speech recognition and synthesis</p>
+          <p>Original AI assistant with a Flask REST API for CI/CD, media playback, and real-time weather updates. Scaled to support a server-client design using multi-threaded sockets, leveraging Microsoft Azure for speech recognition and synthesis</p>
           <div className="project__used">
             <span className="project__used__item">Python</span>
             <span className="project__used__item">Azure</span>
