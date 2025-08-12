@@ -1,7 +1,6 @@
 @import "src/scss/globals";
 .footer {
   margin-top:-200px;
-  margin-right:18vh;
   display:flex;
   flex-direction: column;
   &__name {
@@ -24,10 +23,10 @@
   }
   @include weird-medium {
     margin-top:-50px;
-    margin-right:0;
   }
 }
 .footer1 {
+  
   padding: 5px;
   width:100%;
   display: flex;
@@ -48,7 +47,7 @@
 }
 .footer2 {
   justify-content: space-around;
-
+  margin-right:18vh;
   &__links {
     margin-top:15px;
     @include weird-medium {
@@ -100,6 +99,9 @@
       }
     }
     
+  }
+  @include weird-medium {
+    margin-right:0;
   }
 }
 

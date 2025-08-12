@@ -2,9 +2,6 @@ import * as React from "react"
 import "./footer.scss"
 
 const socialData = [{
-  "title": "email",
-  "url": "mailto:penleyc@icloud.com"
-}, {
   "title": "linkedin",
   "url": "https://www.linkedin.com/in/calebpenley/"
 }, {
@@ -18,6 +15,9 @@ const Footer = () => (
       <div className="footer2">
         <img src="./images/portrait.png" className="portrait"></img>
       <div className="footer2__links">
+         <a href="mailto:penleyc@icloud.com" title = "email">
+          <span className="text">Email</span>
+        </a>
         {
           socialData.map((social) => (
             <a href={social.url} target="_blank" rel="noreferrer" title={social.title}>

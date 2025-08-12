@@ -53,6 +53,18 @@ body {
     .status {
       color: $off-white;
     }
+    .experience {
+      .job {
+        &__position {
+          font-weight:700;
+          color:#e7e7e7;
+        }
+        &__company a {
+          font-weight: 400;
+          color:#afafbf;
+        }
+      }
+    }
 
     .nav-bar a {
       color: #5a6173;
@@ -85,11 +97,11 @@ a {
   .job {
     &__position {
       font-weight:700;
-      color:#e7e7e7;
+      color:$black;
     }
     &__company a {
       font-weight: 400;
-      color:#afafbf;
+      color:$black;
     }
   }
 }

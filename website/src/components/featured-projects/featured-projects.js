@@ -15,7 +15,7 @@ const FeaturedProjects = () => (
           <div className="project__name">
             <a href="https://github.com/Ca1eb9/portfolio/tree/main/coming-soon" rel="noreferrer" target="_blank">Cinema Dashboard</a>
           </div>
-          <p>A full-stack asynchronous dashboard with a TCP-backend for live projector status and management. Secured by UUID-based authentication and automated email alerts for critical errors or projector failures.</p>
+          <p>A full-stack asynchronous dashboard with a TCP backend for live projector status and management. Secured by UUID-based authentication and automated email alerts for critical errors or projector failures.</p>
           <div className="project__used">
             <span className="project__used__item">Rust</span>
             <span className="project__used__item">Warp</span>
@@ -43,7 +43,7 @@ const FeaturedProjects = () => (
           <div className="project__name">
             <a href="https://github.com/Ca1eb9/Maya" rel="noreferrer" target="_blank">Maya - An AI Assistant</a>
           </div>
-          <p>Original AI assistant with a Flask REST API for CI/CD, media playback, and real-time weather updates. Scaled to support a server-client design using multi-threaded sockets, leveraging Microsoft Azure for speech recognition and synthesis</p>
+          <p>Original AI assistant with a Flask REST API for CI/CD, media playback, and real-time weather updates. Scaled to support a server-client design using multi-threaded sockets, leveraging Microsoft Azure for speech recognition and synthesis.</p>
           <div className="project__used">
             <span className="project__used__item">Python</span>
             <span className="project__used__item">Azure</span>

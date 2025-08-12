@@ -5,7 +5,7 @@ import "./other-projects.scss"
 const otherProjectsData = [{
   "name": "LLaMA Style Transfer",
   "url": "https://github.com/Ca1eb9/portfolio/tree/main/coming-soon",
-  "description": "A personal research project exploring fine-tuning of a 1B-parameter Llama model to perform textual style transfer using a limited dataset. Examined the effects supervised fine-tuning (SFT) and input/output variations have on model quality and accuracy.",
+  "description": "A personal research project exploring fine-tuning of a 1B-parameter Llama model to perform textual style transfer using a limited dataset. Examined the effects that supervised fine-tuning (SFT) and input/output variations have on model quality and accuracy.",
   "used": [{
     "thing": "Python"
   }, {
@@ -20,7 +20,7 @@ const otherProjectsData = [{
 }, {
   "name": "Custom mdadm RAID Utility",
   "url": "https://github.com/Ca1eb9/portfolio/tree/main/coming-soon",
-  "description": "A mdadm-like tool in C for RAID managment, focusing on fail-safe Just a Bunch of Disks (JBOD) operations through rigorous testing. Implemented a caching system to optimize I/O and socket-based communication for scalability and improved performance in a networked environment.",
+  "description": "A mdadm-like tool in C for RAID management, focusing on fail-safe Just a Bunch of Disks (JBOD) operations through rigorous testing. Implemented a caching system to optimize I/O and socket-based communication for scalability and improved performance in a networked environment.",
   "used": [{
     "thing": "C"
   }, {
@@ -35,7 +35,7 @@ const otherProjectsData = [{
 }, {
   "name": "Variational Autoencoder (VAE)",
   "url": "https://github.com/Ca1eb9/portfolio/tree/main/coming-soon",
-  "description": "A convolutional VAE in PyTorch from scratch to efficently learn compressed representations from images. Trained on the CIFAR-10 dataset, optimizing for low reconstruction loss while achieving diverse generative sampling.",
+  "description": "A convolutional VAE in PyTorch from scratch to efficiently learn compressed representations from images. Trained on the CIFAR-10 dataset, optimizing for low reconstruction loss while achieving diverse generative sampling.",
   "used": [{
     "thing": "Python"
   }, {
@@ -106,7 +106,7 @@ const otherProjectsData = [{
 }, {
   "name": "Penley's Paintball Website",
   "url": "https://penleyspaintball.github.io",
-  "description": "A simple yet clean and intuitive website designed to showcase pricing, events, and gallery for my dad’s local paintball business.<br> <a class='small' target='_blank' rel='noreferrer' href='https://github.com/penleyspaintball/penleyspaintball.github.io'>Source Code</a>",
+  "description": "A simple yet clean and intuitive website designed to showcase pricing, events, and a gallery for my dad’s local paintball business.<br> <a class='small' target='_blank' rel='noreferrer' href='https://github.com/penleyspaintball/penleyspaintball.github.io'>Source Code</a>",
   "used": [{
     "thing": "HTML"
   }, {

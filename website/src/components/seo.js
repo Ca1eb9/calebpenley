@@ -5,7 +5,7 @@ const seoData = {
   "title": "Caleb Penley",
   "description": "Caleb Penley is a computer science student with a deep interest in researching and designing AI systems inspired by human cognition.",
   "author": "Caleb Penley",
-  "siteUrl": "",
+  "siteUrl": "calebpenley.dev",
 }
 
 const Seo = () => (
@@ -13,7 +13,6 @@ const Seo = () => (
     <title>{seoData.title}</title>
      <Helmet>
     <link rel="icon" href="/favicon/favicon.ico" type="image/x-icon" />
-    {/* Bootstrap Icons CDN */}
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
