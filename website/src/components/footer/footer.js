@@ -7,7 +7,6 @@ const socialData = [{
 }, {
   "title": "github",
   "url": "https://github.com/ca1eb9"
-
 }];
 const Footer = () => (
   <footer className="footer">
@@ -30,7 +29,7 @@ const Footer = () => (
     </div>
 
     <div className="footer__name">
-      Caleb Penley | 2025
+      Caleb Penley | 2026
     </div>
   </footer>
 )

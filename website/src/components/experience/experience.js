@@ -3,14 +3,19 @@ import "./experience.scss"
 
 
 const experienceData = [{
+  "company": "Lockheed Martin - Space",
+  "url": "https://www.lockheedmartin.com/en-us/who-we-are/business-areas/space.html",
+  "time": "Incoming May 2026",
+  "position": "Software Engineering Intern"
+}, {
   "company": "Silver Star Cinemas",
   "url": "https://silverstarcinemas.com/",
-  "time": "May 2024 - Present",
+  "time": "May 2024 - September 2025",
   "position": "Assistant Manager / Tech Lead"
 }, {
   "company": "Delta Phi, Psi Chapter",
   "url": "https://www.deltaphi.org/",
-  "time": "Dec 2024 - Present",
+  "time": "Dec 2024 - September 2025",
   "position": "Vice President"
 }];
 
