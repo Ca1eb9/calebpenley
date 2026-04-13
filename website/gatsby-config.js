@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Kavin Varnan`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `Kavin Varnan`,
+    title: `Caleb Penley`,
+    description: `Caleb Penley is a computer science student with a deep interest in researching and designing AI systems inspired by human cognition.`,
+    author: `Caleb Penley`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   flags: {

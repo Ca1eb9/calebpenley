@@ -1,13 +1,18 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-browser/
- */
+import React from "react"
+import { Analytics } from "@vercel/analytics/react"
 
-// You can delete this file if you're not using it
-exports.onClientEntry = () => {
+export const onClientEntry = () => {
   const savedMode = localStorage.getItem('darkMode');
   if (savedMode === null || savedMode === 'true') {
     document.body.classList.add('night');
   }
+};
+
+export const wrapPageElement = ({ element }) => {
+  return (
+    <>
+      {element}
+      <Analytics />
+    </>
+  );
 };

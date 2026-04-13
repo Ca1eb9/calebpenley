@@ -1,17 +1,9 @@
-/**
- * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-ssr/
- */
+import React from "react"
+import { Analytics } from "@vercel/analytics/react"
 
-/**
- * @type {import('gatsby').GatsbySSR['onRenderBody']}
- */
-const React = require("react");
-exports.onRenderBody = ({ setHtmlAttributes }) => {
-  setHtmlAttributes({ lang: `en` })
-}
-exports.onRenderBody = ({ setPreBodyComponents }) => {
+export const onRenderBody = ({ setHtmlAttributes, setPreBodyComponents }) => {
+  setHtmlAttributes({ lang: `en` });
+  
   setPreBodyComponents([
     <script
       key="night-mode-script"
@@ -27,4 +19,13 @@ exports.onRenderBody = ({ setPreBodyComponents }) => {
       }}
     />,
   ]);
+};
+
+export const wrapPageElement = ({ element }) => {
+  return (
+    <>
+      {element}
+      <Analytics />
+    </>
+  );
 };
