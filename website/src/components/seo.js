@@ -5,7 +5,7 @@ const seoData = {
   "title": "Caleb Penley",
   "description": "Caleb Penley is a computer science student with a deep interest in researching and designing AI systems inspired by human cognition.",
   "author": "Caleb Penley",
-  "siteUrl": "calebpenley.dev",
+  "siteUrl": "calebpenley.vercel.app",
 }
 
 const Seo = () => (
@@ -21,7 +21,7 @@ const Seo = () => (
     <meta name="description" content={seoData.description} />
     <meta property="og:title" content={seoData.title} />
     <meta property="og:description" content={seoData.description} />
-    <meta property="og:type" content="calebpenley.dev" />
+    <meta property="og:type" content="calebpenley.vercel.app" />
     <meta name="twitter:card" content="Caleb Penley is a computer science student with a deep interest in researching and designing AI systems inspired by human cognition." />
     <meta name="twitter:creator" content={seoData.author} />
     <meta name="twitter:title" content={seoData.title} />
