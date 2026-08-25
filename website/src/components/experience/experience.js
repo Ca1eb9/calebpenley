@@ -3,10 +3,10 @@ import "./experience.scss"
 
 
 const experienceData = [{
-  "company": "Lockheed Martin - Space",
-  "url": "https://www.lockheedmartin.com/en-us/who-we-are/business-areas/space.html",
-  "time": "Incoming May 2026",
-  "position": "Software Engineering Intern"
+  "company": "Lockheed Martin",
+  "url": "https://www.lockheedmartin.com/en-us/capabilities/space/national-security-space.html",
+  "time": "May 2026 - July 2026",
+  "position": "Software Engineering Intern | National Security Space"
 }, {
   "company": "Silver Star Cinemas",
   "url": "https://silverstarcinemas.com/",
