@@ -26,6 +26,7 @@ const Seo = () => (
     <meta name="twitter:creator" content={seoData.author} />
     <meta name="twitter:title" content={seoData.title} />
     <meta name="twitter:description" content={seoData.description} />
+    <meta name="google-site-verification" content="a15mw7BPSECr31eiYV7RDphrrDdtoaOLqRpNkJqB1xw" />
   </>
 )
 
