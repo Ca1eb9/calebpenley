@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Helmet } from "react-helmet"
 
 const seoData = {
   "title": "Caleb Penley",
@@ -10,7 +9,6 @@ const seoData = {
 
 const Seo = () => (
   <>
-    <Helmet>
     <title>{seoData.title}</title>
     <link rel="icon" href="/favicon/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"/>
@@ -23,7 +21,6 @@ const Seo = () => (
     <meta name="twitter:creator" content={seoData.author} />
     <meta name="twitter:title" content={seoData.title} />
     <meta name="twitter:description" content={seoData.description} />
-    </Helmet>
   </>
 )
 

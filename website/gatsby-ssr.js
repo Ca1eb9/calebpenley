@@ -1,8 +1,11 @@
 import React from "react"
 import { Analytics } from "@vercel/analytics/react"
+import Seo from "./src/components/seo"
 
-export const onRenderBody = ({ setHtmlAttributes, setPreBodyComponents }) => {
+export const onRenderBody = ({ setHeadComponents, setHtmlAttributes, setPreBodyComponents }) => {
   setHtmlAttributes({ lang: `en` });
+
+  setHeadComponents([<Seo key="seo" />]);
   
   setPreBodyComponents([
     <script

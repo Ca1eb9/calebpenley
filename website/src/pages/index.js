@@ -1,6 +1,5 @@
 import * as React from "react"
 
-import Seo from "../components/seo"
 import Intro from "../components/intro/intro";
 import "../scss/base.scss"
 import "../scss/fonts.scss"
@@ -16,7 +15,6 @@ import Navbar from "../components/navbar/navbar"
 const IndexPage = () => (
   <>
     <Scroll />
-    <Seo/>
     <Navbar />
     <Intro />
     <Background />
