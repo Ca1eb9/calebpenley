@@ -10,14 +10,11 @@ const seoData = {
 
 const Seo = () => (
   <>
+    <Helmet>
     <title>{seoData.title}</title>
-     <Helmet>
     <link rel="icon" href="/favicon/favicon.ico" type="image/x-icon" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
-    />
-     </Helmet>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"/>
+    <meta name="google-site-verification" content="a15mw7BPSECr31eiYV7RDphrrDdtoaOLqRpNkJqB1xw" />
     <meta name="description" content={seoData.description} />
     <meta property="og:title" content={seoData.title} />
     <meta property="og:description" content={seoData.description} />
@@ -26,7 +23,7 @@ const Seo = () => (
     <meta name="twitter:creator" content={seoData.author} />
     <meta name="twitter:title" content={seoData.title} />
     <meta name="twitter:description" content={seoData.description} />
-    <meta name="google-site-verification" content="a15mw7BPSECr31eiYV7RDphrrDdtoaOLqRpNkJqB1xw" />
+    </Helmet>
   </>
 )
 
